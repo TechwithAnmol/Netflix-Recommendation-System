@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 #IMPORTING DATASET
-dataset = pd.read_csv(r"C:\Users\imanm\Desktop\mark2\Churn_Modelling.csv")
+dataset = pd.read_csv(r"C:\Users\imanm\Desktop\mark2\Churn_Modelling.csv") #add path to your data csv(comma seperated file) file
 x = dataset.iloc[:,[8,12]].values
 
 #let the number of required clusters be 4
