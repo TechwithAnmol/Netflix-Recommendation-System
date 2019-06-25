@@ -1,3 +1,4 @@
+# LINEAR REGRESSION
 #1) importing the modules required
 import pandas as pd
 import numpy as np
